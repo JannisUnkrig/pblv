@@ -4,6 +4,8 @@ import math
 
 if __name__ == '__main__':
 
+    random.seed(420)
+
     sensors = [
         [0, 0, 0],
         [0, random.random(), random.random()],
@@ -16,6 +18,8 @@ if __name__ == '__main__':
         [random.random(), random.random(), 0],
         [random.random(), random.random(), 0]
         ]
+
+    random.seed()
 
     print("Sensor Positionen:\n", sensors)
 
